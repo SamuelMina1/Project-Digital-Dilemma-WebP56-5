@@ -1,0 +1,48 @@
+body{
+  @import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300;400;700&display=swap');
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+
+img{
+  border-radius: 12px;
+}
+
+.HeaderMain{
+  text-align: left;
+}
+
+.HeadingImage {
+  position: absolute;
+  top: 15px;
+  right: 0;
+  width: 50%;
+  width: 90px;
+  height: 90px;
+}
+
+.HeaderMain, h1, h2, h3, h4, h5, h6{
+  margin: 1px;
+}
+
+.Links{
+   display: grid;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:30px;
+  min-height:500px;
+  position: relative;
+  text-decoration: none;
+   grid-template-columns: auto auto auto;
+  padding: 20px;
+}
+
+.card{
+  text-align: center;
+  text-decoration: none;
+}
+
+.textA{
+  text-decoration: none;
+}
